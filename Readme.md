@@ -34,10 +34,10 @@ To access to a member of enum you should use similar to swift syntax:
 }
 ```
 ---
-To switch between members of enum you should use macro:
+To switch between members of enum you should use macros:
 ```
 - (void)handleState:(NSString *)state {
-    SWITCH(JSOExampleEnum, state) {
+    SWITCH(JStrExampleEnum, state) {
         CASE(Loading) {
             NSLog(@"Handle loading state: <%@>", state);
             break;
