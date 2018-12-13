@@ -1,4 +1,4 @@
-#Info
+
 Swift like implementation of enums with NSString associated values for objective-c using macros
 
 ## Installation
